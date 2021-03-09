@@ -1,5 +1,11 @@
 """Print out all the melons in our inventory."""
-
+melon_total = {
+    'Honeydew' :  {'seedlessness': 'True', 'price' : 0.99, 
+    'Crenshaw' :  {'seedlessness': 'False', 'price' : 2.00,}
+    'Crane'    :  {'seedlessness': 'False', 'price' : 2.50,}
+    'Casaba'   :  {'seedlessness': 'False', 'price' : 2.50,}
+    'Cantaloupe': {'seedlessness': 'False', 'price' : 0.99, }
+}
 
 from melons import melon_names, melon_seedlessness, melon_prices
 
